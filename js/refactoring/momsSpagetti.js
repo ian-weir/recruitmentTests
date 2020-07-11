@@ -113,11 +113,13 @@ function momsSpagetti(lyrics) {
 
 // REFACTORED VERSION HERE //
 /*
-For containing all the verses and choruses I went with using the push functionality supported by Arrays. I originally went with string concatination
-but it felt a little less clean when I logged the text because of the lack of spaces between verses, chorses and refrains. Using the join() at the end seemed a little nicer. 
-I used forEach() because I find it's a little easier to read than a for loop plus you don't have to manage an iterator. Using repeat() eliminated the need for the if
-statements the original method had in the for loop. For instance if the number of refrains needed to change to four the old method would need an update within the for loop
-where as this one would continue to work.
+For containing all the verses and choruses I went with using the push functionality supported by Arrays.
+I originally went with string concatination but it felt a little less clean when I logged the text 
+because of the lack of spaces between verses, chorses and refrains. Using the join() at the end seemed 
+a little nicer. I used forEach() because I find it's a little easier to read than a for loop plus you 
+don't have to manage an iterator. Using repeat() eliminated the need for the if statements the original 
+method had in the for loop. For instance if the number of refrains needed to change to four the old 
+method would need an update within the for loop where as this one would continue to work.
 */
 function momsSpagetti() {
     return new Promise((resolve, reject) => {
